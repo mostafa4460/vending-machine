@@ -1,0 +1,19 @@
+.VendingMachine {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://miro.medium.com/max/4392/1*6daVASIQ_gt916KRq2fWTA.jpeg");
+    background-size: contain;
+    background-position: center, center;
+    background-repeat: no-repeat;
+}
+
+.VendingMachine-snacks {
+    width: 30%;
+}
+
+.VendingMachine-snacks a {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
